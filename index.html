@@ -1,36 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <link href="styles.css" type="text/css" rel="stylesheet">
     <title>Google</title>
 </head>
 <body>
-    <nav class="nav">
-
-    </nav>
+    <header class="header">
+        <nav class="nav">
+            <div class="left-bar">
+                <a href="#">About</a>
+                <a href="#">Store</a>
+            </div>
+            <div class="right-bar">
+                <a href="#">Gmail</a>
+                <a href="#">Images</a>
+                <a href="#"><img src="cube" title="Menu" alt="View other services"/></a>
+                <a href="#"><img src="#" title="Your Account" alt="View your account"></a>
+            </div>
+        </nav>
+    </header>
 
     <main class="main">
-        <div class="logo">
-            <a href="google.com" target="_blank"><img src="https://cdn.vox-cdn.com/thumbor/Pkmq1nm3skO0-j693JTMd7RL0Zk=/0x0:2012x1341/1200x800/filters:focal(0x0:2012x1341)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg" alt="The google logo"/></a>
-        </div>
-        <div class="search-bar">
 
+        <div class="logo">
+            <a href="google.com" target="_blank"><img title="Google" src="https://github.com/rijavecb/The-Odin-Project/blob/master/Web-Development-101/google-homepage/images/googlelogo.png?raw=true" alt="The google logo"/></a>
         </div>
+
+        <div class="search-bar">
+            <input type="text" spellcheck="false" title="Search"></input>
+        </div>
+
         <div class="buttons">
-            <button>Google Search</button>
-            <button>I'm Feeling Lucky</button>
+            <input class="button" type="submit" aria-label="Google Search" value="Google Search"></input>
+            <input class="button" type="submit" aria-label="I'm Feeling Lucky" value="I'm Feeling Lucky"></input>
         </div>
+
         <div class="page-text">
-            <p>Google offered in:   </p><a href="#">Francais</a>
+            <p>Google offered in:   <a href="#">Francais</a></p>
         </div>
+
     </main>
 
     <footer class="footer">
+
         <div class="country">
-
+            <p>Canada</p>
         </div>
-        <div class="links">
 
+        <div class="links">
+            <span class="left">
+                <a href="#"><p>Advertising</p></a>
+                <p>Business</p>
+                <p>How Search Works</p>
+            </span>
+            <span class="right">
+                <p>Privacy</p>
+                <p>Terms</p>
+                <p>Settings</p>
+            </span>
         </div>
     </footer>
 
